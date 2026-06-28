@@ -43,3 +43,5 @@ npx.cmd pnpm lint = revisa el codigo en busca de posibles errores
 
 No incluye login, panel admin, backend, pagos online, base de datos, POS,
 analytics ni sistema SaaS multi-negocio.
+
+Las funciones mencionadas enteriomente se estaran implementando a partir de la V2.
