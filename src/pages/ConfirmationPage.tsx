@@ -45,7 +45,7 @@ export function ConfirmationPage({
         </button>
       </section>
 
-      <aside className="lg:sticky lg:top-24 lg:self-start">
+      <section className="lg:sticky lg:top-24 lg:self-start">
         <OrderSummary
           items={lastOrder.items}
           orderType={lastOrder.orderType}
@@ -53,7 +53,8 @@ export function ConfirmationPage({
           deliveryFee={lastOrder.deliveryFee}
           total={lastOrder.total}
         />
-      </aside>
+      </section>
+      
     </main>
   )
 }

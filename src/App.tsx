@@ -281,11 +281,13 @@ function App() {
         onRemove={removeItem}
       />
 
-      <FloatingCartButton
-        cartCount={cartCount}
-        subtotal={subtotal}
-        onClick={() => setIsCartOpen(true)}
-      />
+      {view === 'menu' && (
+        <FloatingCartButton
+          cartCount={cartCount}
+          subtotal={subtotal}
+          onClick={() => setIsCartOpen(true)}
+        />
+      )}
     </div>
   )
 }

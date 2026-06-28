@@ -92,7 +92,7 @@ export function CartDrawer({
             data-testid="checkout-cart"
           >
             <ShoppingBag size={18} aria-hidden="true" />
-            Finalizar pedido
+            Continuar
           </button>
         </div>
       </aside>

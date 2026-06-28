@@ -25,7 +25,7 @@ export function WhatsAppButton({ url, disabled, onSent }: WhatsAppButtonProps) {
       data-testid="send-whatsapp"
     >
       <MessageCircle size={18} aria-hidden="true" />
-      Enviar por WhatsApp
+      Finalizar pedido
     </button>
   )
 }

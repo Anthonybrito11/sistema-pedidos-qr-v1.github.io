@@ -89,16 +89,7 @@ export function CheckoutPage({
           />
         )}
 
-        <button
-          type="button"
-          className="primary-button w-full sm:w-auto"
-          onClick={onReview}
-          disabled={items.length === 0}
-          data-testid="review-order"
-        >
-          Revisar pedido
-          <ArrowRight size={17} aria-hidden="true" />
-        </button>
+        
       </div>
 
       <aside className="lg:sticky lg:top-24 lg:self-start">
@@ -109,6 +100,16 @@ export function CheckoutPage({
           deliveryFee={deliveryFee}
           total={total}
         />
+        <button
+          type="button"
+          className="primary-button w-full sm:w-auto mt-3"
+          onClick={onReview}
+          disabled={items.length === 0}
+          data-testid="review-order"
+        >
+          Confirmar orden
+          <ArrowRight size={17} aria-hidden="true" />
+        </button>
         <p className="mt-3 rounded-lg bg-white px-4 py-3 text-sm leading-6 text-slate-600">
           Total estimado: <strong>{formatCurrency(total)}</strong>. El negocio
           confirmara disponibilidad por WhatsApp.
