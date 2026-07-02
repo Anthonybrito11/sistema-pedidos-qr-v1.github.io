@@ -43,13 +43,13 @@ const filteredProducts = selectedCategory === 'all'
           ) : null}
           
           {/* Logo Placeholder */}
-          <div className="mb-4 flex h-40 w-40 items-center justify-center  text-slate-400 font-bold text-xs uppercase tracking-wider select-none" aria-hidden="true">
-          <img src="/Images/LogoEjemploCuki.png" alt="" />
+          <div className="mb-4 flex h-52 w-52 items-center justify-center  text-slate-400 font-bold text-xs uppercase tracking-wider select-none" aria-hidden="true">
+          <img src="/Images/LogoEjemploCuki.png" alt="logo cuki yun yun" />
           </div>
 
           <h1 className="text-2xl font-black text-slate-950">Tu antojo favorito comienza aquí ✨</h1>
           <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-600">
-            Explora nuestro menú, agrega tus favoritos y recibe tu pedido con facilidad.
+            Explora nuestro menú, agrega tus favoritos y recibelo con facilidad.
           </p>
         </div>
       </section>
