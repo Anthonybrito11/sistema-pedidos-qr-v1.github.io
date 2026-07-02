@@ -1,8 +1,7 @@
 import { MapPin, ShoppingCart } from 'lucide-react'
+import { businessConfig } from '../data/businessConfig'
 
 interface HeaderProps {
-  businessName: string
-  tagline: string
   tableNumber: string
   cartCount: number
   onCartOpen: () => void
@@ -25,8 +24,8 @@ export function Header({
           onClick={onHome}
           aria-label="Volver al menu"
         >
-          <h1 className='text-base font-bold text-slate-950'>Nombre</h1>
-          <p className='text-xs font-medium text-slate-500'>tagline</p>
+          <h1 className='text-base font-bold text-slate-950'>{businessConfig.name}</h1>
+          <p className='text-xs font-medium text-slate-500'>{businessConfig.tagline}</p>
         </button>
 
         <div className="flex items-center gap-2">

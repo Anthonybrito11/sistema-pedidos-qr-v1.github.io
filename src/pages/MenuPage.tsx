@@ -43,13 +43,13 @@ const filteredProducts = selectedCategory === 'all'
           ) : null}
           
           {/* Logo Placeholder */}
-          <div className="mb-4 flex h-24 w-24 items-center justify-center rounded-full bg-slate-50 border-2 border-dashed border-slate-300 text-slate-400 font-bold text-xs uppercase tracking-wider select-none" aria-hidden="true">
-            Tu Logo
+          <div className="mb-4 flex h-40 w-40 items-center justify-center  text-slate-400 font-bold text-xs uppercase tracking-wider select-none" aria-hidden="true">
+          <img src="/Images/LogoEjemploCuki.png" alt="" />
           </div>
 
-          <h1 className="text-3xl font-black text-slate-950">Mensaje de bienvenida</h1>
+          <h1 className="text-2xl font-black text-slate-950">Tu antojo favorito comienza aquí ✨</h1>
           <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-600">
-            Elige una categoria, agrega productos al carrito y confirma tu pedido.
+            Explora nuestro menú, agrega tus favoritos y recibe tu pedido con facilidad.
           </p>
         </div>
       </section>
